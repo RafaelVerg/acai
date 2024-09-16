@@ -1,0 +1,139 @@
+body {
+    zoom: 1;
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+body, h1, p, a {
+    width: 700%;
+	height: 1152%;
+	margin: 0;
+    margin: 0;
+    padding: 5;
+    box-sizing: border-box;
+}
+div >a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header  {
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #590776;
+    color: #ffffff;
+    padding: -30px 30px;
+}
+
+.logo {
+    height: 70px; /* Ajuste a altura do logo conforme necessário */
+}
+
+.navbar {
+   
+    display: flex;
+    gap: 60px; /* Espaço entre os links de navegação */
+}
+
+.navbar a {
+    
+    color: #fff;
+    text-decoration: none;
+    font-size: 29px;
+}
+
+.navbar a:hover {
+   
+    text-decoration: underline;
+}
+
+body {
+    
+    background-color: #D7B7DF;
+}
+
+
+
+body {
+   
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    gap: 50px; /* Espaçamento entre os retângulos */
+    padding: 130px;
+}
+
+.card {
+    border: 4px solid #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #590776;
+    box-shadow: 0 8px 8px #590776(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+
+    width: 310px;
+    height: 400px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img {
+    width: 100%;
+    left: 80%;
+    height: auto;
+}
+
+.card-text {
+    padding: 5px;
+}
+
+.card-text h2 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.card-text p {
+    color: #ffffff;
+    font-family:verdana;
+    font-size: 30px;
+}
+
+body {
+    background-color: #D7B7DF;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #590776;
+}
+.flex-container >div {
+    background-color: #590776;
+    margin: 10px;
+    margin-left: 70px;
+    padding: 20px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.flex-container >.principal {
+    color: #590776;
+    background-color: #FBFF4E;
+    margin-top: 15px;
+    margin-left: 80px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 50px;
+}
+

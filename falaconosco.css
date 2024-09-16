@@ -1,0 +1,140 @@
+
+
+* {
+   
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+
+    font-family: Arial, sans-serif;
+    background-color: #d8b4de;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    height: 80vh;
+    background-color: #c7a2d6;
+}
+
+.contact-form {
+    background-color: #c7a2d6;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.contact-form h2 {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-form .subtext {
+    color: #8b6c9c;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    background-color: #5b005b;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.contact-form button {
+    background-color: #3c003c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: #d6a2a2;
+}
+
+
+footer {
+    background-color: #d8b4de;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+.contact-info {
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.copyright {
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: flex-end; /* Alinha os itens à direita */
+    align-items: center;
+    gap: 10px; /* Espaçamento entre o formulário e a imagem */
+    padding: 40px;
+    height: 80vh;
+}
+
+.contact-form {
+    background-color: #c7a2d6;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin-right:100px; /* Mantém a caixa de texto mais próxima ao centro */
+}
+
+.logo img {
+    width: 300px;
+    margin-left: 100px; /* Espaçamento entre a caixa de texto e a imagem */
+}

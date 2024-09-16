@@ -1,0 +1,87 @@
+body {
+
+   
+
+    background-color: #D7B7DF;
+}
+div >a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.flex-container {
+   
+    display: flex;
+    background-color: #590776;
+}
+.flex-container >div {
+    background-color: #590776;
+    margin: 5px;
+    margin-left: 80px;
+    padding: 20px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.flex-container >.principal {
+    color: #590776;
+    background-color: #FBFF4E;
+    margin-top: 10px;
+    margin-left: 60px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+.flex-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin: 0;
+}
+
+.flex-container1 >img{
+    max-width: 70%;
+    height: auto;
+}
+.saboroso {
+    display: flex;
+    font-size: 40px;
+    font-family: "Be Vietnam Pro";
+    color: #590776;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+.ritmo {
+    display: flex;
+    font-size: 40px;
+    font-family: "Be Vietnam Pro";
+    color: rgba(107, 32, 119, 0.6);
+    justify-content: right;
+    margin-top: 20px;
+}
+
+.conosco {
+    color:#590776;
+    background-color: #FBFF4E;
+    padding: 15px;
+    border-radius: 170px;
+    font-size: 23px;
+    font-family: "Be Vietnam Pro";
+    width: 200px;
+    margin-top: 150px;
+    height: 60px;
+    margin-bottom: 20px; 
+}
+
+.verdadeiro {
+        display: flex;
+        font-size: 30px;
+        font-family: "Be Vietnam Pro";
+        color: #590776;
+        justify-content: right;
+        margin-bottom: 20px;
+        height: 110px;
+        margin-left: 100px;
+      
+}
